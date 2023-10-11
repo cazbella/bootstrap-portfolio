@@ -1,1 +1,3 @@
 # bootstrap-portfolio
+
+You have a README that has a description of the site but is missing a link to the deployed portfolio and a screenshot. It also isn’t using proper Markdown styling. Here is a link to a site that can step you through creating a detailed README. It demonstrates how to properly style, link to websites, include screenshots, etc. https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide Caroline, you have a fantastic commit history. Keep this great habit up throughout the program by continuing to commit frequently and with such great commit messages.
