@@ -7,6 +7,18 @@ body {padding: 20px;}
     font-size: 75px;
 }
 
+#into {
+    align-items: center;
+}
+
+.container-fluid .py-5 img{
+    float: left;
+    margin-right: 10px; /* Add margin to the right of the image to create space */
+
+      }
+      
+  
+}
 .btn-primary {
 border-color: black;
 }
@@ -14,3 +26,11 @@ border-color: black;
 color: white;
 background: blueviolet !important;
 }
+
+    @media (max-width: 768px) {
+        img {
+          float: none; /* Remove float on smaller screens */
+          width: 100%; /* Make the image 100% width to stack it above text */
+          margin: 0; /* Remove margin to prevent extra spacing */
+        }
+      }
