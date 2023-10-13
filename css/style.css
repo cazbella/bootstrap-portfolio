@@ -116,6 +116,20 @@ btn btn-primary btn-lg navCTA {
 }
 
 
+.card-body {
+  background-color: rgb(160, 137, 182);
+  color: black;
+  border-radius: 0.5rem !important; 
+}
+
+.card-body a.btn {
+  background-color: rgb(136, 92, 177); /* Match the "Contact Me" button background color */
+  border-color: black; /* Set the border color */
+  color: white; 
+  
+
+
+
 
 
 @media (max-width: 768px) {
