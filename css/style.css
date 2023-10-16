@@ -3,8 +3,6 @@ body {
 }
 
 .page-header h1 {
-  /* display: flex;
-  flex: auto; */
   align-items: centre !important;
   padding: 40px;
   font-weight: bold;
@@ -14,12 +12,14 @@ body {
 .jumbotron-header {
   justify-content: left;
 }
-/* prevents text overlap upon resizing */
+/* prevents text overlap upon resizing. help from ask BCS */
 .container-fluid .py-5 img {
-  float: left;
+  float: none;
   margin-right: 10px;
   margin-top: 35px;
 }
+
+
 
 .bg-body-tertiary {
   background-color: rgb(160, 137, 182) !important;
@@ -119,27 +119,32 @@ shadow hover */
   border-color: black;
   color: white; 
 }
+
+.skills-title {
+  margin-top: 20px;
+}
+
   
 .icon-container {
-  display: flex;
-  justify-content: space-around;
+  text-align: center; 
+  height: 100%;
 }
 
 .icon {
-  width: 4%;
-  height: 40px;
+  width: 15%;
   max-width: 100%;
   height: auto;
-  margin-left: 20px;
+  margin: 10px;
+
 }
 
 .icon:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
   
-
-
-
+.cv-link {
+  color: black;
+}
 
 
 @media (max-width: 768px) {
