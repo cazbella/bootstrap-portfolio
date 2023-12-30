@@ -207,3 +207,10 @@ shadow hover */
     padding: 0 15px; /* Adjust the padding as needed */
   }
 }
+
+@media (max-width: 767px) {
+  .card {
+    column-count: 1 !important;
+    column-gap: 1.25rem; /* Adjust as needed */
+  }
+}
