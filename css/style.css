@@ -123,6 +123,7 @@ shadow hover */
   background-color: rgb(136, 92, 177);
   border-color: black;
   color: white; 
+  align-items: flex-end !important;
 }
 
 .image-container {
@@ -214,3 +215,4 @@ shadow hover */
     column-gap: 1.25rem; /* Adjust as needed */
   }
 }
+
