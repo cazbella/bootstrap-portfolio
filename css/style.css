@@ -121,7 +121,6 @@ shadow hover */
   color: white; 
 }
 
-/* help from chat GPT for these 2 CSS attributes */
 .image-container {
   position: relative;
   width: 100%; 
@@ -183,4 +182,21 @@ shadow hover */
   width: 75%;
   align-items: center;
   padding: 0 !important;
+}
+
+@media (max-width: 969px) {
+  .jumbotron .container-fluid {
+    text-align: center;
+  }
+
+  .jumbotron .py-5 img {
+    margin: 0 auto !important;
+    display: block; /* Ensure the image is treated as a block element */
+  }
+
+  .col-lg-9 {
+    width: 100%;
+    text-align: center; /* Center the content */
+    padding: 0 15px; /* Adjust the padding as needed */
+  }
 }
