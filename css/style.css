@@ -74,6 +74,10 @@ shadow hover */
   color: black;
 }
 
+.card {
+  border: 2px solid #0b3c70; /* Set the border thickness and color */
+}
+
 .dropdown-menu {
   background-color: transparent !important;
   background-size: cover;
@@ -174,6 +178,9 @@ shadow hover */
   }
 }
 
+.skills {
+  height: 270px;
+}
 
 
 .col-lg-9 {
